@@ -10,7 +10,7 @@
 #include "DiscordSDK/include/discord_register.h"
 #include "DiscordSDK/include/discord_rpc.h"
 
-static const char* APPLICATION_ID = "1147920689072967700";
+static const char* APPLICATION_ID = "YOUR_APPLICATION_ID";
 std::string lastKnownState = "";
 
 std::string GetLogFilePath() {
