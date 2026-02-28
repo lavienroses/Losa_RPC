@@ -70,7 +70,7 @@ std::string ParseStateFromLine(const std::string& line) {
     else if (line.find("Next Stage(4, 32,") != std::string::npos) return "Battle Mode";
     else if (line.find("Next Stage(4, 33,") != std::string::npos) return "Farming Mode";
 
-    return "Kalem Euy";
+    return "Loading . . . . ";
 }
 
 void UpdateDiscordPresence(const std::string& state) {
